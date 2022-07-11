@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	align-items: center;
+	text-align: center;
+	background-image: url(fruits.png);
+	background-size: cover;
+}
+#top{
+	margin: auto;
+	background-color: rgba(232, 255, 197, 1);
+	width: 50%;
+	border: 50px solid white;
+}
+#top h2{
+	font-family: 'Nanum Myeongjo', serif;
+	font-weight: 800;
+	font-size: 32px;
+	color: rgba(255, 174, 23, 1);
+	padding-top: 50px;
+}
+#top h1{
+	font-family: 'Nixie One', cursive;
+	font-weight: 600;
+	font-size: 50px;
+	color: rgba(0, 0, 0, 1);
+}
+#top h4{
+	margin-top: 50px;
+	font-family: 'Neuton', serif;
+	font-weight: 300;
+	font-size: 22px;
+}
+#top p{
+	font-family: 'Cinzel', serif;
+	font-weight: 50;
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.5);
+	margin: 7px 0;
+}
+::placeholder{
+	font-family: 'Cinzel', serif;
+	font-weight: 50;
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.5);	
+}
+#top .name{
+	padding: 5px 0;
+	width: 300px;
+	margin-top: 17px;
+	border: none;
+	border-top: 2px solid rgba(0, 0, 0, 0.25);
+	border-left: 2px solid rgba(0, 0, 0, 0.25);
+	text-align: center;
+}
+#top .pre{
+	margin-top: 17px;
+	border: none;
+	border-top: 2px solid rgba(0, 0, 0, 0.25);
+	border-left: 2px solid rgba(0, 0, 0, 0.25);
+	text-align: center;
+	width: 40px;
+	padding: 5px 0;
+}
+#top .no{
+	margin-top: 17px;
+	border: none;
+	border-top: 2px solid rgba(0, 0, 0, 0.25);
+	border-left: 2px solid rgba(0, 0, 0, 0.25);
+	text-align: center;
+	padding: 5px 0;
+	width: 250px;
+
+}
+#top .add{
+	margin-top: 17px;
+	border: none;
+	border-top: 2px solid rgba(0, 0, 0, 0.25);
+	border-left: 2px solid rgba(0, 0, 0, 0.25);
+	text-align: center;
+	padding: 5px 0;
+	width: 100px;
+	height: 18px;
+}
+#top #to{
+	display: flex;
+	justify-content: center;
+	gap: 51px;
+}
+#top .reg{
+	margin-top: 10px;
+	font-family: 'Cinzel', serif;
+	font-weight: 50;
+	font-size: 11px;
+	color: rgba(0, 0, 0, 0.5);
+}
+#top .here{
+	font-family: 'Cinzel', serif;
+	font-weight: 50;
+	font-size: 11px;
+	color: rgba(66, 0, 255, 1);
+}
+#top #cat{
+	width: 300px;
+	color: grey;
+	margin-top: 17px;
+	border: none;
+	border-top: 2px solid rgba(0, 0, 0, 0.25);
+	border-left: 2px solid rgba(0, 0, 0, 0.25);
+	text-align: center;
+	padding: 5px 0;
+}
+#top #btn{
+	color: rgba(255, 166, 0, 1);
+	background-color: white;
+	border: 2px solid rgba(255, 209, 123, 1);
+	width: 180px;
+	text-align: center;
+	font-family: 'Nanum Myeongjo', serif;
+	font-weight: 800;
+	font-size: 20px;
+	padding: 5px;
+}
+#top label{
+	font-family: 'Cinzel', serif;
+	font-weight: 50;
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.9);
+}
